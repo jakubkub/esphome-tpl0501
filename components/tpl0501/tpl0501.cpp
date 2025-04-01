@@ -11,8 +11,8 @@ void TPL0501::setup() {
         ESP_LOGD(TAG, "Setting up TPL0501 Potentiometer on CS pin: %d", this->cs_pin_);
         cs_pin_->setup();
         cs_pin_->digital_write(true);
-}
-}
+        }
+  }
 
 void TPL0501::dump_config() {
     ESP_LOGCONFIG(TAG, "Setting up TPL0501 Potentiometer");
