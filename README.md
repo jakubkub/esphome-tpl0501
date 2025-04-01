@@ -8,7 +8,7 @@ This is my first ESPHome external component for TPL0501 Digital Potentiometer
 <p dir="auto">Use latest <a href="https://esphome.io/" rel="nofollow">ESPHome</a>
 with external components and add this to your <code>.yaml</code> definition:</p>
 <div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">external_components</span>:
-  - <span class="pl-ent">source</span>: <span class="pl-s">github://SzczepanLeon/esphome-components@main</span></pre><div class="zeroclipboard-container">
+  - <span class="pl-ent">source</span>: <span class="pl-s">github://jakubkub/esphome-tpl0501@main</span></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="external_components:
   - source: github://jakubkub/esphome-tpl0501@main" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
