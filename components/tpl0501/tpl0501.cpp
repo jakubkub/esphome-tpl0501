@@ -12,6 +12,7 @@ void TPL0501::setup() {
         cs_pin_->setup();
         cs_pin_->digital_write(true);
 }
+}
 
 void TPL0501::dump_config() {
     ESP_LOGCONFIG(TAG, "Setting up TPL0501 Potentiometer");
