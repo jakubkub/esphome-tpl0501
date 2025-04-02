@@ -31,6 +31,10 @@ void TPL0501::set_wiper(uint8_t value) {
     }
   }
 
+float TPL0501::get_max_resistance() const {
+  return max_resistance_value_;
+}
+
 float TPL0501::get_wiper() const {
     return current_wiper_value_;
   }

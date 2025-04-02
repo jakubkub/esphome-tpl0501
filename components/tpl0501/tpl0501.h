@@ -17,6 +17,7 @@ class TPL0501 : public Component {
   void set_max_resistance_value(float max_resistance_value) { max_resistance_value_ = max_resistance_value; }
   void set_wiper(uint8_t value);
   float get_wiper() const;
+  float get_max_resistance() const;
   void update_wiper_from_resistance(float resistance);
 
  protected:
